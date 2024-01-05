@@ -1,0 +1,30 @@
+
+/* Home.css */
+.banner-container {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  /* Add other styles as needed */
+}
+  /* .banner {
+    background-size: cover;
+    background-position: center;
+   
+  } 
+  */
+.hover-card:hover {
+
+  border: 2px solid rgb(35, 11, 121);
+  border-radius: 20px; 
+}
+.fade-up {
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(0);
+}
+
+.fade-up:not(.fade-up-active) {
+  transform: translateY(50px);
+}
+.slick-dots li:nth-child(n+4) {
+  display: none;
+}
